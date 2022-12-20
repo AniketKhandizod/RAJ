@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4722" started-at="2022-12-20T17:17:52Z" finished-at="2022-12-20T17:17:57Z">
+  <suite started-at="2022-12-20T18:03:13Z" name="Suite" finished-at="2022-12-20T18:03:35Z" duration-ms="21936">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4722" started-at="2022-12-20T17:17:52Z" finished-at="2022-12-20T17:17:57Z">
+    <test started-at="2022-12-20T18:03:13Z" name="Test" finished-at="2022-12-20T18:03:35Z" duration-ms="21936">
       <class name="TestingStuff.TestExecutionFild">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@7fc2413d]" name="invokeBrowser" is-config="true" duration-ms="4211" started-at="2022-12-20T17:17:52Z" finished-at="2022-12-20T17:17:56Z">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:13Z" name="invokeBrowser" finished-at="2022-12-20T18:03:34Z" duration-ms="21040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="ValidateIconOfGreenKart()[pri:0, instance:TestingStuff.TestExecutionFild@7fc2413d]" name="ValidateIconOfGreenKart" duration-ms="155" started-at="2022-12-20T17:17:56Z" finished-at="2022-12-20T17:17:56Z">
+        <test-method signature="ValidateIconOfGreenKart()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:35Z" name="ValidateIconOfGreenKart" finished-at="2022-12-20T18:03:35Z" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateIconOfGreenKart -->
-        <test-method status="PASS" signature="landing()[pri:0, instance:TestingStuff.TestExecutionFild@7fc2413d]" name="landing" duration-ms="22" started-at="2022-12-20T17:17:56Z" finished-at="2022-12-20T17:17:56Z">
+        <test-method signature="landing()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:35Z" name="landing" finished-at="2022-12-20T18:03:35Z" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landing -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@7fc2413d]" name="CloseBrowser" is-config="true" duration-ms="263" started-at="2022-12-20T17:17:56Z" finished-at="2022-12-20T17:17:57Z">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:35Z" name="CloseBrowser" finished-at="2022-12-20T18:03:35Z" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- TestingStuff.TestExecutionFild -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
