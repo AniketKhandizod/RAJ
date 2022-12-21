@@ -8,6 +8,7 @@
           <include name="landing"/>
           <include name="invokeBrowser"/>
           <include name="CloseBrowser"/>
+          <include name="ValidateIconOfGreenKart"/>
         </methods>
       </class> <!-- TestingStuff.TestExecutionFild -->
     </classes>

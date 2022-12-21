@@ -1,25 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-20T18:03:13Z" name="Suite" finished-at="2022-12-20T18:03:35Z" duration-ms="21936">
+  <suite name="Suite" duration-ms="48711" started-at="2022-12-21T19:04:24Z" finished-at="2022-12-21T19:05:12Z">
     <groups>
     </groups>
-    <test started-at="2022-12-20T18:03:13Z" name="Test" finished-at="2022-12-20T18:03:35Z" duration-ms="21936">
+    <test name="Test" duration-ms="48711" started-at="2022-12-21T19:04:24Z" finished-at="2022-12-21T19:05:12Z">
       <class name="TestingStuff.TestExecutionFild">
-        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:13Z" name="invokeBrowser" finished-at="2022-12-20T18:03:34Z" duration-ms="21040" status="PASS">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="invokeBrowser" is-config="true" duration-ms="3658" started-at="2022-12-21T19:04:24Z" finished-at="2022-12-21T19:04:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="ValidateIconOfGreenKart()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:35Z" name="ValidateIconOfGreenKart" finished-at="2022-12-20T18:03:35Z" duration-ms="434" status="PASS">
+        <test-method status="PASS" signature="ValidateIconOfGreenKart()[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="ValidateIconOfGreenKart" duration-ms="204" started-at="2022-12-21T19:04:27Z" finished-at="2022-12-21T19:04:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateIconOfGreenKart -->
-        <test-method signature="landing()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:35Z" name="landing" finished-at="2022-12-20T18:03:35Z" duration-ms="30" status="PASS">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="CloseBrowser" is-config="true" duration-ms="159" started-at="2022-12-21T19:04:28Z" finished-at="2022-12-21T19:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="invokeBrowser" is-config="true" duration-ms="2445" started-at="2022-12-21T19:04:28Z" finished-at="2022-12-21T19:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="landing()[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="landing" duration-ms="24" started-at="2022-12-21T19:04:30Z" finished-at="2022-12-21T19:04:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landing -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@433defed]" started-at="2022-12-20T18:03:35Z" name="CloseBrowser" finished-at="2022-12-20T18:03:35Z" duration-ms="327" status="PASS">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="CloseBrowser" is-config="true" duration-ms="170" started-at="2022-12-21T19:04:30Z" finished-at="2022-12-21T19:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="invokeBrowser" is-config="true" duration-ms="2265" started-at="2022-12-21T19:04:30Z" finished-at="2022-12-21T19:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="validateAddKartButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="validateAddKartButton" duration-ms="2610" started-at="2022-12-21T19:04:33Z" data-provider="getData" finished-at="2022-12-21T19:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brocolli]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cauliflowe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cucumber]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddKartButton -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="CloseBrowser" is-config="true" duration-ms="16221" started-at="2022-12-21T19:04:35Z" finished-at="2022-12-21T19:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="invokeBrowser" is-config="true" duration-ms="2150" started-at="2022-12-21T19:04:51Z" finished-at="2022-12-21T19:04:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="validateAddKartButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="validateAddKartButton" duration-ms="2546" started-at="2022-12-21T19:04:54Z" data-provider="getData" finished-at="2022-12-21T19:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beans]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brinjal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Beetroot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddKartButton -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestingStuff.TestExecutionFild@7d3a22a9]" name="CloseBrowser" is-config="true" duration-ms="16222" started-at="2022-12-21T19:04:56Z" finished-at="2022-12-21T19:05:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
