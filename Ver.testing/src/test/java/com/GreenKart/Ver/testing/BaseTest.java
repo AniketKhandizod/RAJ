@@ -5,19 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
-import Resources.AbstractComponents;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	public WebDriver driver;
-	//@Parameters({"browserName","appURL"})
-	@BeforeTest(alwaysRun=true)
-	public void invokeBrowser() {
-		String Browser ="C";
+	@Parameters({"Browser"}) @BeforeMethod(alwaysRun=true)
+	public void invokeBrowser(String Browser) {
 		if(Browser.equalsIgnoreCase("C")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -36,7 +33,7 @@ public class BaseTest {
 		new LandingPage(driver);
 	}
 	
-	@AfterTest(alwaysRun=true)
+	@AfterMethod(alwaysRun=true)
 	public void CloseBrowser() {
 		try {
 			driver.close();
