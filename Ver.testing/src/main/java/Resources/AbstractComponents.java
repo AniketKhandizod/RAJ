@@ -26,7 +26,7 @@ public class AbstractComponents {
 	public void SS(WebElement E,String fileName)  {
 		try {
 		File file =E.getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(file, new File(System.getProperty("user.dir")+"\\src\\test\\java\\ScreenShot\\"+fileName+".png"));
+		FileHandler.copy(file, new File(System.getProperty("user.dir")+"\\ScreenShot\\"+fileName+".png"));
 		}
 		catch(Exception D) {
 			D.getStackTrace();
