@@ -17,8 +17,10 @@ public class AbstractComponents {
 		this.driver=driver;
 	}
 
-	public void jsScript() {
+	public AbstractComponents jsUnderline(WebElement E) {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].style.border='3px solid #E74C3C'", E);
+		return new AbstractComponents(driver);
 		
 	}
 	public void SS(WebElement E,String fileName)  {
