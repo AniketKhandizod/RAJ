@@ -1,5 +1,10 @@
 package TestingStuff;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
+
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -18,16 +23,13 @@ public class TestExecutionFild extends BaseTest {
 	public void ValidateIconOfGreenKart() {
 		(new LandingPage(driver)).logoOfGreenKart();
 	}
-
-	@Test(dataProvider = "getData")
-	public void validateAddKartButton(String name, String name2, String name3) {
-		System.out.println(name + name2);
-		(new LandingPage(driver)).ItemNameAndAddKart(name, name2, name3);
+	@Test
+	public void failed01() throws IOException
+	{
+		
+		Desktop.getDesktop().open(new File("C://Users//admin//git//RAJ//Ver.testing//ScreenShot//logo.png"));
+		Assert.fail();
 	}
 
-	@DataProvider
-	public Object[][] getData() {
-
-		return new Object[][] { { "Brocolli", "Cauliflowe", "Cucumber" }, { "Beans", "Brinjal", "Beetroot" } };
-	}
+	
 }

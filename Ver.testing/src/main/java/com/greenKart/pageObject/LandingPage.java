@@ -25,15 +25,6 @@ public class LandingPage extends AbstractComponents {
 	@FindBy(css = "[class=\"brand greenLogo\"]")
 	WebElement Logo;
 
-	@FindBy(css = "h4[class='product-name']")
-	List<WebElement> nameOfProduct;
-
-	@FindBy(css = ".product-action [type='button']")
-	List<WebElement> AddKartButton;
-
-	@FindBy(xpath = "(//td/strong)[1]")
-	WebElement count;
-
 	public void landPage() {
 		String ExpectedUrl = "https://rahulshettyacademy.com/seleniumPractise/#/";
 		String ActualUrl = driver.getCurrentUrl();
@@ -42,27 +33,6 @@ public class LandingPage extends AbstractComponents {
 
 	public void logoOfGreenKart() {
 		SS(Logo, "logo");
-	}
-
-	public void ItemNameAndAddKart(String name1, String name2, String name3) {
-		for (int i = 0; i < nameOfProduct.size(); i++) {
-
-			if (nameOfProduct.get(i).getText().split("-")[0].trim().contains(name1)) {
-				AddKartButton.get(i).click();
-				System.out.println(count.getText());
-			} else {
-			}
-			if (nameOfProduct.get(i).getText().split("-")[0].trim().contains(name2)) {
-				AddKartButton.get(i).click();
-				System.out.println(count.getText());
-			} else {
-			}
-			if (nameOfProduct.get(i).getText().split("-")[0].trim().contains(name3)) {
-				AddKartButton.get(i).click();
-				System.out.println(count.getText());
-			}
-		}
-
 	}
 
 }

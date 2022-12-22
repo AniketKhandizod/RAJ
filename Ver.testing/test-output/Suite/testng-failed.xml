@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="C"/>
+  <listeners>
+    <listener class-name="TestUtility.Listners01"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="TestingStuff.TestExecutionFild">
         <methods>
           <include name="invokeBrowser"/>
           <include name="CloseBrowser"/>
-          <include name="ValidateIconOfGreenKart"/>
+          <include name="failed01"/>
         </methods>
       </class> <!-- TestingStuff.TestExecutionFild -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

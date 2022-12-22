@@ -15,7 +15,7 @@ public class FindMaxMin {
 				case 'H' : if(a[i]>a[j]) {int swap = a[i];a[i]=a[j];a[j]=swap;};break;
 				case 'L' : if(a[i]<a[j]) {int swap = a[i];a[i]=a[j];a[j]=swap;};break;
 				default : System.out.println("Add proper Method Siganture");break;
-				}				
+				}			
 			}
 		}
 		System.out.print("Sorted Array : ");
