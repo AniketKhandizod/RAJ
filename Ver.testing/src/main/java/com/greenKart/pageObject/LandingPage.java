@@ -1,4 +1,4 @@
-package pageObject;
+package com.greenKart.pageObject;
 
 import java.io.IOException;
 import java.util.List;

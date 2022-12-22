@@ -9,8 +9,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import com.greenKart.pageObject.LandingPage;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
-import pageObject.LandingPage;
 
 public class BaseTest {
 	public WebDriver driver;
